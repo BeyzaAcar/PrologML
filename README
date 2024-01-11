@@ -1,0 +1,7 @@
+Project is about prolog, but the python part helps to understand project better,
+it is not mendotory. In PROLOG part, there are 2 part of the project as mentioned in
+the description of the homework (you can check this from Description.pdf in the project path)
+requirements.txt file includes all the requirements for python part to run correctly, you should 
+run this command in your terminal --> pip install -r requirements.txt 
+
+You can see more detailed explanations of the spesific file in the file itself in the beginning. 
