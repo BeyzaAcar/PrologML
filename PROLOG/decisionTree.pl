@@ -1,3 +1,12 @@
+/*
+
+* Part 2 of the project (you can find the first part in the file 'expertSystem.pl')
+* Check howToRun.txt file to see how to run the program 
+* The program is written in Prolog language by Beyza Acar
+* You can see the reqirement of the project in the file named description.pdf (path : ../description.pdf)
+
+*/
+
 % classify(SepalLength, SepalWidth, PetalLength, PetalWidth, Class)
 classify(_, _, PetalLength, PetalWidth, Class) :-
     (   PetalLength =< 2.45
@@ -19,7 +28,6 @@ classify(_, _, PetalLength, PetalWidth, Class) :-
 classify(SepalLength, SepalWidth, PetalLength, PetalWidth) :-
     classify(SepalLength, SepalWidth, PetalLength, PetalWidth, Class),
     write(Class), nl.
-
 
 % Example queries
 % ?- classify(4.9, 2.4, 3.3, 1.0, Class). --> 'Iris-versicolor'
